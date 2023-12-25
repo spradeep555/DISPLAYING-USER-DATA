@@ -1,0 +1,62 @@
+body{
+    font-family: 'Roboto', sans-serif;
+ }
+ #fetchusersbtn{
+    width: 150px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family:  sans-serif;
+    margin-left: 550px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(44, 79, 114, 0.653) 0px 0px 0px 1px;
+ }
+
+ #fetchusersbtn:hover{
+    transform: scale(1.1);
+    transition: 1s ;
+    background-color: #FFCC70;
+ }
+ 
+ #usersList.users-list{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-left: 25px;
+ }
+ .user-card {
+    box-shadow: rgba(93, 68, 68, 0.02) 0px 1px 3px 0px, rgba(51, 66, 81, 0.15) 0px 0px 0px 1px;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 350px;
+    height: 300px;
+ }
+
+ .user-card img {
+    width: 220px; 
+    border-radius: 10px; 
+    margin-left: 65px;
+ }
+
+ .user-card img:hover{
+    transform: scale(1.1);
+    transition: 1s ;
+ }
+
+ .user-details {
+    margin-top: 10px;
+ }
+
+ .name {
+    font-weight: bolder;
+    color: #333;
+    font-size: 25px;
+    margin-left: 150px;
+ }
+
+ .email {
+    color: #555;
+    font-size: 20px;
+    margin-left: 90px;
+ }
